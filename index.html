@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria IBM CIC - Bari</title>
+    <link rel="icon" href="logopizzeria.png" type="image/x-icon"> <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body class="text-center">
+
+    <section class="video-hero-section">
+        <video autoplay muted loop playsinline id="fullscreen-video"> <source src="pizzaiolo.mp4" type="video/mp4">
+            Video pizzeria
+        </video>
+
+    <p class="slogan-text">Storia di passione e tradizione...</p>
+
+        <div class="video-overlay-content">
+            <h1>BENVENUTO IN PIZZERIA!</h1>
+            <div class="scroll-indicator">
+                ⬇️ Scorri ⬇️
+            </div>
+        </div>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lx navbar-light bg-dark fixed-top"> 
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="logopizzeria.png" alt="Logo pizzeria" class="logo-img">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto"> <li class="nav-item">
+                            <a class="nav-link" href="#about">Chi siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menù</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatti">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section> <main class="container">         <section id="menu" class="menu-section">
+            
+            <a href="https://www.thefork.it/" target="_blank" class="btn btn-success btn-lg mb-5">Prenota il tuo tavolo 🍽️</a>
+
+            <div class="menu-title-and-offer-centered d-flex align-items-center mb-4">
+                <div class="flex-grow-1 d-none d-md-block"></div> <h3 class="mb-0">Il Menù</h3> 
+                <button type="button" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal" id="specialOfferBtn">
+                    Offerta speciale!
+                </button>
+                <div class="flex-grow-1" id="offerButtonSpacer"></div> </div>
+
+            <div class="menu-grid-container row g-3"> 
+                <div class="menu-item col-12 col-md-6" role="group" aria-labelledby="pizza-margherita-title">
+                    <div class="menu-text-content">
+                        <h4 id="pizza-margherita-title">Margherita</h4>
+                        <p>Pomodoro San Marzano DOP e fior di latte d’Agerola, condita con olio evo e basilico</p>
+                        <span class="price">€ 6.00</span>
+                    </div>
+                    <img src="https://pizzerierricoporzio.it/wp-content/uploads/2025/01/margherita.png" alt="Pizza Margherita con pomodoro, mozzarella e basilico" class="pizza-thumbnail">  
+                </div>
+                
+                <div class="menu-item col-12 col-md-6" role="group" aria-labelledby="pizza-pulcinella-title">
+                    <div class="menu-text-content">
+                        <h4 id="pizza-pulcinella-title">Pulcinella</h4>
+                        <p>Fior di latte d’Agerola, salsiccia di maialino e friarielli. All’uscita olio evo e basilico.</p>
+                        <span class="price">€ 8.00</span>
+                    </div>
+                    <img src="https://pizzerierricoporzio.it/wp-content/uploads/2025/01/pulcinella-1.png" alt="Pizza Pulcinella con fior di latte, salsiccia e friarielli" class="pizza-thumbnail">
+                </div>
+                
+                <div class="menu-item col-12 col-md-6" role="group" aria-labelledby="pizza-fiordiragu-title">
+                    <div class="menu-text-content">
+                        <h4 id="pizza-fiordiragu-title">Fior di Ragù</h4>
+                        <p>Centro ripieno di ricotta e provola d’Agerola e pepe, un trancio di margherita, un trancio di Pulcinella, con involtino di crudo e ciliegine di mozzarella di bufala Campana DOP.</p>
+                        <span class="price">€ 10.00</span>
+                    </div>
+                    <img src="https://pizzerierricoporzio.it/wp-content/uploads/2025/01/fior_di_ragu.png" alt="Pizza Fior di Ragù, ripiena con ricotta e provola, e tranci di margherita e pulcinella" class="pizza-thumbnail">
+                </div>
+
+<div class="menu-item col-12 col-md-6" role="group" aria-labelledby="pizza-diavola-title">
+    <div class="menu-text-content">
+        <h4 id="pizza-diavola-title">Diavola</h4>
+        <p>Pomodoro San Marzano DOP, fior di latte d’Agerola, salame piccante e peperoncino fresco. All’uscita olio evo e basilico.</p>
+        <span class="price">€ 8.50</span>
+    </div>
+    <img src="https://pizzerierricoporzio.it/wp-content/uploads/2025/01/cosacca.png" alt="Pizza Diavola" class="pizza-thumbnail">
+</div>
+
+<div class="menu-item col-12 col-md-6" role="group" aria-labelledby="pizza-bufalina-title">
+    <div class="menu-text-content">
+        <h4 id="pizza-bufalina-title">Bufalina</h4>
+        <p>Pomodoro San Marzano DOP, mozzarella di bufala Campana DOP, pomodorini e basilico fresco.</p>
+        <span class="price">€ 9.00</span>
+    </div>
+    <img src="https://pizzerierricoporzio.it/wp-content/uploads/2025/01/terrona.png" alt="Pizza Bufalina" class="pizza-thumbnail">
+</div>
+
+<div class="menu-item col-12 col-md-6" role="group" aria-labelledby="pizza-capricciosa-title">
+    <div class="menu-text-content">
+        <h4 id="pizza-capricciosa-title">Capricciosa</h4>
+        <p>Pomodoro San Marzano DOP, fior di latte d’Agerola, funghi champignon, carciofini, olive nere e prosciutto cotto.</p>
+        <span class="price">€ 9.50</span>
+    </div>
+    <img src="https://pizzerierricoporzio.it/wp-content/uploads/2025/01/partenope-1.png" alt="Pizza Capricciosa" class="pizza-thumbnail">
+</div>
+
+
+
+
+
+
+
+
+
+            </div> </section>
+
+
+
+
+        <section id="contatti">
+            <h3>Contatti</h3>
+            <p>Vieni a trovarci!</p>
+            <address> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6013.210516279335!2d16.886151795503174!3d41.099470687946244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1750077761061!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="contact-links"> <p>📞 <a href="tel:+390801234567">+39 080 1234567</a></p>
+                    <p>📧 <a href="mailto:info@pizzeriaibm.it">info@pizzeriaibm.it</a></p>
+                </div>
+            </address>
+        </section>
+
+
+
+        <section id="about" class="about-section text-center">
+            <h3>Chi siamo</h3>
+            <p>Siamo la pizzeria dell'IBM CIC Bari!</p>
+        </section>        
+    </main>
+
+<footer>
+            <div><h4>Pizzeria IBM CIC Bari</h4>
+            <p>&copy;Pietro Walter Soriano</p>
+        </div>
+
+
+
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Offerta speciale!
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Offerta del Giorno!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        Approfitta della nostra pizza margherita a €5.00 solo per oggi!
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+        <button type="button" class="btn btn-primary">Prenota!</button>
+    </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
